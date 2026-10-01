@@ -47,7 +47,7 @@ h1
   object-fit: cover;
 }
 
-.karte p {
+.karte h2 {
   margin-top: 10px;
   font-weight: bold;
 }
