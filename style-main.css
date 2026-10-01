@@ -27,3 +27,27 @@ h1
 .blau {
   background-color: #a9c9f5;
 }
+.karten {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.karte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.karte img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.karte p {
+  margin-top: 10px;
+  font-weight: bold;
+}
